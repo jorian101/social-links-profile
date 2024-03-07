@@ -2,8 +2,9 @@
   --LightBlack: #141414;
   --DarkGray: #1f1f1f;
   --Gray: #333333;
+  --LightGray: #bbb7b7;
   --White: #ffffff;
-  --Green: #c5f82a; 
+  --Green: #c5f82a;
 }
 
 * {
@@ -37,7 +38,7 @@ main {
 .card {
   width: 100%;
   text-align: center;
-  padding: 2.3rem;
+  padding: 1.5rem;
   color: var(--White);
   background-color: var(--DarkGray);
   border-radius: 20px;
@@ -70,7 +71,7 @@ main {
 .social__intro {
   font-size: 0.8rem;
   font-weight: 550;
-  color: #bbb7b7;
+  color: var(--LightGray);
 }
 
 .social__link {
@@ -83,7 +84,7 @@ main {
   font-weight: 700;
   background-color: var(--Gray);
   padding: 0.8rem;
-  border-radius: 9px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
