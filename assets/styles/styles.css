@@ -26,17 +26,16 @@ img {
   border-radius: 50%;
 }
 
-main {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 350px;
-  margin: auto;
+.container {
+  display:flex;
 }
 
 .card {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 350px;
+  margin: auto;
   text-align: center;
   padding: 1.5rem;
   color: var(--White);

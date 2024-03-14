@@ -1,55 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/styles.css" media="screen and (min-width: 375px)">
-    <link rel="stylesheet" href="./assets/styles/desktop1440.css" media="screen and (min-width: 1440px)">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./assets/styles/styles.css" media="screen and (min-width: 375px)" />
+	<link rel="stylesheet" href="./assets/styles/desktop1440.css" media="screen and (min-width: 1440px)" />
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
 
-    <title>Frontend Mentor | Social links profile</title>
-
+	<title>Frontend Mentor | Social links profile</title>
 </head>
+
 <body>
-<main>
-    <div class="card">
-        <div class="img-container">
-            <img src="./assets/images/avatar-jessica.jpeg">
-        </div>
-        <div class="personal section">
-            <h2 class="personal__name">
-                Jessica Randall
-            </h2>
-            <p class="personal__address">
-                London, United Kingdom
-            </p>
-        </div>
-        <div class="social section">
-            <p class="social__intro">
-                "Front-end developer and avid reader."
-            </p>
-            <div class="social__links section">
-                <button class="social__link">
-                    GitHub
-                </button>
-                <button class="social__link">
-                    Frontend Mentor
-                </button>
-                <button class="social__link">
-                    LinkedIn
-                </button>
-                <button class="social__link">
-                    Twitter
-                </button>
-                <button class="social__link">
-                    Instagram
-                </button>
-            </div>
-        </div>
-    </div>
-</main>
+	<button id="addCardBtn" class="social__link">Da click</button>
+	<div id="app" class="container">
+		<div class="card" id="card">
+			<div class="img-container">
+				<img src="./assets/images/avatar-jessica.jpeg" />
+			</div>
+			<div class="personal section">
+				<h2 class="personal__name">Jessica Randall</h2>
+				<p class="personal__address">London, United Kingdom</p>
+			</div>
+			<div class="social section">
+				<p class="social__intro">"Front-end developer and avid reader."</p>
+				<div class="social__links section">
+					<button class="social__link">GitHub</button>
+					<button class="social__link">Frontend Mentor</button>
+					<button class="social__link">LinkedIn</button>
+					<button class="social__link">Twitter</button>
+					<button class="social__link">Instagram</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./assets/js/index.js"></script>
 </body>
+
 </html>
